@@ -2,13 +2,14 @@ nav {
     display: flex;
     justify-content: space-between;
     padding: 0 2.5%;
-    background-color: rgb(233, 234, 245);
+    background-color: rgb(240, 238, 238);
 }
 .logoContainer {
-    width: 13%;
+    width: 14%;
     display: flex;
     align-content: center;
     padding: 10px 2%;
+    filter: invert(20%);
 }
 
 .linksContainer {
@@ -23,11 +24,11 @@ nav {
 }
 
 a:hover {
-    color: rgb(127, 156, 209);
+    color: rgb(73, 130, 236);
 }
 
 .searchContainer {
-    margin: 0 10% 0 3%;
+    margin: 0 6% 0 3%;
 }
 .search {
     width: 100%;
@@ -38,8 +39,8 @@ a:hover {
 }
 .rocket {
     position: absolute;
-    top: 22px;
-    left: 210px;
+    top: 14px;
+    left: 188px;
     font-size: .5rem;
     color: rgb(22, 24, 150);
 }

@@ -11,7 +11,7 @@ function App() {
 
       <Navigation />
       <Header />
-      {/* <Spotlight /> */}
+      <Spotlight />
       {/* <Footer /> */}
       
     </div>

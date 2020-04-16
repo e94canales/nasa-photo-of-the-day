@@ -1,0 +1,33 @@
+.spotlightContainer {
+    display: flex;
+    height: 59vh;
+    justify-content: center;
+    
+}
+
+.spotlight {
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding: 1%;
+    flex-direction: column;
+    width: 33%;
+    filter: drop-shadow(0 6px 5px rgb(110, 110, 110));
+}
+
+.spotlightImg{
+    /* width: 30%; */
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.spotlightTitle {
+    padding: 4%;
+    background-color: rgb(212, 207, 212);
+}
+
+.desc {
+    padding: 7%;
+    background-color: rgb(212, 207, 212);
+
+}

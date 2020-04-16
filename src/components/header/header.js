@@ -14,7 +14,7 @@ function Header (props) {
 
         axios.get(`${apiUrl}planetary/apod${apiKey}`)
             .then ( response => {
-                console.log(response.data); 
+                // console.log(response.data); 
                 setCtaImage(response.data.hdurl)
                 setCtaImageTitle(response.data.title)
                 setCtaExplanation(response.data.explanation)
