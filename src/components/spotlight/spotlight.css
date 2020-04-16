@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina+2|Roboto+Condensed&display=swap');
+
+
 .spotlightContainer {
     display: flex;
-    height: 59vh;
     justify-content: center;
-    
+    width: 100%;
+    height: 100%;
 }
 
 .spotlight {
@@ -12,22 +15,29 @@
     flex-direction: column;
     width: 33%;
     filter: drop-shadow(0 6px 5px rgb(110, 110, 110));
+    color: rgb(91, 100, 112);
 }
 
 .spotlightImg{
-    /* width: 30%; */
-    width: 100%;
-    height: 100%;
-    object-fit: fill;
+    width: 600px;
+    height: 500px;
 }
 
 .spotlightTitle {
-    padding: 4%;
-    background-color: rgb(212, 207, 212);
+    padding: 1%;
+    background-color: rgba(88, 86, 86, 0.596);
+    font-family: 'Baloo Bhaina 2';
+    color: rgb(243, 243, 243);
+    position: absolute;
+    width: 93.7%;
+    backdrop-filter: blur(2px);
 }
 
 .desc {
     padding: 7%;
     background-color: rgb(212, 207, 212);
-
+    line-height: 1.4;
+    text-align: left;
+    font-family: 'Roboto Condensed';
+    font-size: 1.3rem;
 }

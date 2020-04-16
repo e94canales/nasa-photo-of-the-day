@@ -1,11 +1,11 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
-import '../spotlight/spotlight.css'
+import '../spotlight/spotlight.css';
 
 const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
 const apiUrl = 'https://images-api.nasa.gov/'
 
-function Spotlight (props) {
+const Spotlight = props => {
     const [titleOne, setTitleOne] = useState(null)
     const [titleTwo, setTitleTwo] = useState(null)
     const [titleThree, setTitleThree] = useState(null)

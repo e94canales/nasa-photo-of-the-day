@@ -5,7 +5,7 @@ import axios from 'axios'
 const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
 const apiUrl = 'https://api.nasa.gov/'
 
-function Header (props) {
+const Header = (props) => {
     const [ctaImage, setCtaImage] = useState(null)
     const [ctaImageTitle, setCtaImageTitle] = useState(null)
     const [ctaExplanation, setCtaExplanation] = useState(null)
