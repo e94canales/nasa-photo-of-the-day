@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import '../header/header.css'
-import axios from 'axios'
-
+import '../header/header.css';
+import axios from 'axios';
+import HeaderContainer from '../header/headerCompStyles'
 const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
 const apiUrl = 'https://api.nasa.gov/'
+
 
 const Header = (props) => {
     const [ctaImage, setCtaImage] = useState(null)
     const [ctaImageTitle, setCtaImageTitle] = useState(null)
     const [ctaExplanation, setCtaExplanation] = useState(null)
+    
 
     useEffect( () => {
 
@@ -24,9 +26,10 @@ const Header = (props) => {
             })
 
     }, [])
+   
 
     return (
-        <div className='headerContainer'>
+        <HeaderContainer>
             <div className='ctaImgContainer'>
                 <img className='ctaImg' src={ctaImage} alt={ctaImageTitle}/>
             </div>
@@ -37,7 +40,7 @@ const Header = (props) => {
                 </div>
             </div>
             
-        </div>
+        </HeaderContainer>
     )}
 
 export default Header

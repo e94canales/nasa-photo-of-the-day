@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import axios from 'axios';
 import '../spotlight/spotlight.css';
+import SpotlightContainer from '../spotlight/spotlightCompStyles';
 
 const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
 const apiUrl = 'https://images-api.nasa.gov/'
@@ -43,7 +44,7 @@ const Spotlight = props => {
             })
     }, [])
     return (
-        <div className='spotlightContainer'>
+        <SpotlightContainer>
             <div className='spotlight one'>
                 <h2 className='spotlightTitle'>{titleOne}</h2>
                 <img className='spotlightImg' src={imgOne} alt={titleOne} />
@@ -62,7 +63,7 @@ const Spotlight = props => {
                 <img className='spotlightImg'  src={imgThree} alt={titleThree} />
                 <p className='desc'>{descThree}</p>
             </div>
-        </div>
+        </SpotlightContainer>
     )
 }
 

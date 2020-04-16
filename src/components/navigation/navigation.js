@@ -1,4 +1,5 @@
 import React from 'react';
+import { Navigation, LogoContainer, Links } from '../navigation/navStyledComps';
 import '../navigation/navigation.css';
 import logo from '../../components/images/spacelink.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -10,13 +11,13 @@ const rocket = <FontAwesomeIcon icon={faRocket} />
 const Nav = (props) => {
 
     return (
-        <nav>
-            <div className='logoContainer'>
+        <Navigation>
+            <LogoContainer>
                 <img src={logo} className='logo' alt='logo'/>
                 <p className='rocket'>{rocket}</p>
-            </div>
+            </LogoContainer>
 
-            <div className='linksContainer'>
+            <Links>
                 <a className='a' href='#'>Home</a>
                 <a className='a' href='#'>About</a>
                 <a className='a' href='#'>Contact</a>
@@ -27,10 +28,10 @@ const Nav = (props) => {
                 </form>
                 <img className='userAva' src={userImage} alt='user'></img>
 
-            </div>
+            </Links>
 
 
-        </nav>
+        </Navigation>
     )
 }
 

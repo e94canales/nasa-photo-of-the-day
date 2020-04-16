@@ -1,31 +1,31 @@
-nav {
+/* nav {
     display: flex;
     justify-content: space-between;
     padding: 0 2.5%;
     background-color: rgb(240, 238, 238);
-}
-.logoContainer {
+} */
+/* .logoContainer {
     width: 14%;
     display: flex;
     align-content: center;
     padding: 10px 2%;
     filter: invert(20%);
-}
+} */
 
-.linksContainer {
+/* .linksContainer {
     display: flex;
     align-items: center;
-}
+} */
 
-.a {
+/* .a {
     text-decoration: none;
     color: black;
     padding: 0 5%;
-}
+} */
 
-a:hover {
+/* a:hover {
     color: rgb(73, 130, 236);
-}
+} */
 
 .searchContainer {
     margin: 0 6% 0 3%;
@@ -49,7 +49,7 @@ a:hover {
     width: 2%;
     border-radius: 100%;
     position: absolute;
-    right: 35px;
+    right: 25px;
     border: rgb(212, 212, 212) 1px solid;
     cursor: pointer;
 }
