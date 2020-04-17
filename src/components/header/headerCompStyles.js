@@ -6,7 +6,7 @@ const HeaderContainer = styled.div`
 
     @media screen and (max-width: 500px) {
         flex-direction: column;
-        height: 84vh;
+        /* height: 84vh; */
     }
 
         .ctaImgContainer {

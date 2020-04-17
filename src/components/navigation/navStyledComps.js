@@ -19,10 +19,9 @@ const LogoContainer = styled.div`
     display: flex;
     align-content: center;
     padding: 10px 2%;
-    filter: invert(20%);
 
     @media screen and (max-width: 500px){
-               width: 50%;
+               width: 35%;
                padding: 0;
             }
 
