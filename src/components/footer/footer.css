@@ -1,3 +1,4 @@
+
 .footerContainer {
     padding: .7% .5%;
     background-color: rgba(223, 224, 224, 0);
@@ -10,6 +11,12 @@
     font-size: 1.4rem;
     color: rgb(78, 96, 119);
 }
+@media screen and (max-width: 500px){
+    .social {
+        font-size: 1.2rem;
+        padding: 0 2%;
+    }
+}
 .social:hover {
     color: red;
     cursor: pointer;
@@ -17,4 +24,9 @@
 
 .ssC {
     padding-bottom: .6%;
+}
+@media screen and (max-width: 500px) {
+    .ssC {
+        padding-bottom: 2%;
+    }
 }

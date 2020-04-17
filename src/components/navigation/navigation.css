@@ -27,33 +27,36 @@
     color: rgb(73, 130, 236);
 } */
 
-.searchContainer {
+/* .searchContainer {
     margin: 0 6% 0 3%;
-}
-.search {
+} */
+/* .search {
     width: 100%;
     padding: 0 15%;
     height: 3vh;
     font-size: 1rem;
     outline: none;
-}
-.rocket {
+
+        
+} */
+
+/* .rocket {
     position: absolute;
     top: 14px;
     left: 188px;
     font-size: .5rem;
     color: rgb(22, 24, 150);
-}
+} */
 
-.userAva {
+/* .userAva {
     width: 2%;
     border-radius: 100%;
     position: absolute;
     right: 25px;
     border: rgb(212, 212, 212) 1px solid;
     cursor: pointer;
-}
+} */
 
-.userAva:hover {
+/* .userAva:hover {
     opacity: 70%;
-}
+} */

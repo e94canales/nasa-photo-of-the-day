@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../spotlight/spotlight.css';
 import SpotlightContainer from '../spotlight/spotlightCompStyles';
 
-const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
+// const apiKey = '?api_key=dAywCiykRURtovd09SjXLi4aItwJ6AVNXLtZbZ3t'
 const apiUrl = 'https://images-api.nasa.gov/'
 
 const Spotlight = props => {
