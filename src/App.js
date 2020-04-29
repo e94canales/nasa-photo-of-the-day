@@ -1,15 +1,23 @@
 import React from "react";
 import "./App.css";
+import Navigation from './components/navigation/navigation';
+import Header from './components/header/header';
+import Spotlight from './components/spotlight/spotlight';
+import Footer from './components/footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
-      </p>
+
+      <Navigation />
+      <Header />
+      <Spotlight />
+      <Footer />
+      
     </div>
+
   );
 }
+
 
 export default App;
